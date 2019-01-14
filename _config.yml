@@ -1,5 +1,9 @@
-title: walrein.github.io
+title: ぬここゐ
 encoding: utf-8
-github_username: walrein
+github_username: nukokoi
 qiita_username: walrein
 google_analytics: UA-74696121-1
+
+# deployment
+host: 0.0.0.0
+port: 5000

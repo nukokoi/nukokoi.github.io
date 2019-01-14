@@ -18,38 +18,30 @@ Hello world.
 
 - - -
 
-## Growl for Windows + limechat
-
-LimechatからGrowl for Windowsに通知するためのスクリプト
-
-### [導入方法](http://qiita.com/walrein/items/e3e64c9eed3e352345e8)
-
-![Growl for Windows + Limechat](/growlforwindows+limechat.png)
-
-- - -
-
 ## Cavetube Checker
 [cavetube](https://www.cavelis.net/)の放送リストを  
 個人的に見やすくしたウェブサイト
 
+<!--
 [![cavetube checker](/screenshot_cavetubechecker.png)](http://jvs.pw/cavetube/)
+-->
 
 - - -
 
 ## MINECRAFT サーバー
 自宅で運用しているMINECRAFTサーバー  
-アドレスは危険防止のためにここへは記載しません。
-
+アドレスはひっそり運営するために記載しません。
+<!--
 ![MINECRAFT SERVER](/MINECRAFT.png)
-
+-->
 
 - - -
 
 ## ブログ系
+- [livedoorブログ](http://ukah.blog.jp/)
+- [はてなブログ](https://lied4u.hatenablog.jp/)
 - [Qiita](http://qiita.com/walrein)　プログラミング関係
 - [g.o.a.t](https://alpine.goat.me/)　スマホ関係(KDDIが運営してるのでau多め)
-- [jekyll](https://walrein.github.io/jekyll/)　用途検討中
-- [J.A.R.V.I.Sに会いに行く](http://iz.webstarterz.com/)　その他の技術ブログ
 - [jsdo.it](http://jsdo.it/lied4u)　Javascriptの習熟用、ゲーム考えたり
 
 ## 古いブログ
