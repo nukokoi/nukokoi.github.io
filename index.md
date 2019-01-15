@@ -29,7 +29,7 @@ Hello world.
 - - -
 
 ## MINECRAFT サーバー
-自宅で運用しているMINECRAFTサーバー  
+Google Cloud Platform で動作させている MINECRAFTサーバー  
 アドレスはひっそり運営するために記載しません。
 <!--
 ![MINECRAFT SERVER](/MINECRAFT.png)
