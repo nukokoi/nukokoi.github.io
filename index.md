@@ -38,11 +38,11 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 - - -
 
 ## ブログ系
-- [livedoorブログ](http://ukah.blog.jp/)
-- [はてなブログ](https://lied4u.hatenablog.jp/)
+- [livedoorブログ](http://ukah.blog.jp/) ニュースとか気になった記事からの引用
+- [はてなブログ](https://lied4u.hatenablog.jp/) 他社サービスとの比較用
 - [Qiita](http://qiita.com/walrein)　プログラミング関係
 - [g.o.a.t](https://alpine.goat.me/)　スマホ関係(KDDIが運営してるのでau多め)
-- [jsdo.it](http://jsdo.it/lied4u)　Javascriptの習熟用、ゲーム考えたり
+- [jsdo.it](http://jsdo.it/lied4u)　ブログ？Javascriptの習熟用、ゲーム考えたり
 
 ## 古いブログ
 
