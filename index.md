@@ -13,8 +13,8 @@ Hello world.
 
 お仕事・ご依頼お待ちしております。
 
-- mail: 
-- Twitter:<a href="https://twitter.com/">＠_</a>
+- mail: nukokoi＠outlook.jp
+- Twitter:<a href="https://twitter.com/">＠nukokokoi</a>
 
 - - -
 
