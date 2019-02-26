@@ -39,8 +39,10 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 
 ## ブログ系
 - [夢見猫物語](http://ukah.blog.jp/) ちょっと使ってみてる
-- [nukokoi blog](http://nukokoi.blog.jp) 日記用 
-- [last become flat](https://lied4u.hatenablog.jp/) クリエイティブ関係
+- [ぬここゐブログ](http://nukokoi.blog.jp) 日記用 
+- [note](https://note.mu/nukokoi) noteとりあえず作ってみた 
+- [Medium](https://medium.com/@eu1) Mediumとりあえず作ってみた 
+- [last become flat](https://lied4u.hatenablog.jp/) はてなブログ・クリエイティブ関係
 - [うかたんぶら](https://ukah-blog.tumblr.com) いつか使う
 - [Qiita](http://qiita.com/walrein)　プログラミング関係
 - [g.o.a.t](https://alpine.goat.me/)　スマホ関係(KDDIが運営してるのでau多め)
@@ -65,4 +67,4 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 
 ### test
 
-[![Donate Bitcoin](https://img.shields.io/badge/donate-Bitcoin-orange.svg)](http://walrein.github.io/donate-bitcoin/)
+[![Donate Bitcoin](https://img.shields.io/badge/donate-Bitcoin-orange.svg)](http://nukokoi.github.io/donate-bitcoin/)
