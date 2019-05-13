@@ -69,6 +69,3 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 
 [![Donate Bitcoin](https://img.shields.io/badge/donate-Bitcoin-orange.svg)](http://nukokoi.github.io/donate-bitcoin/)
 
-<script type="text/javascript" language="javascript">
-    var vc_pid = "885822658";
-</script><script type="text/javascript" src="//aml.valuecommerce.com/vcdal.js" async></script>
