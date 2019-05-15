@@ -3,6 +3,8 @@
 layout: default
 ---
 
+<script src="https://adm.shinobi.jp/s/fdd5b1d3505cd7f864f5f7071e89a2a6"></script>
+
 # {{ site.title }}
 Hello world.  
 営業事務をする傍ら、いろんなことをしてます。  
