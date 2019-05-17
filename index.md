@@ -32,7 +32,7 @@ Hello world.
 
 ## MINECRAFT サーバー
 Google Cloud Platform で動作させている MINECRAFTサーバー  
-アドレスはひっそり運営するために記載しません。
+[サーバー管理日誌](/minecraft/)
 <!--
 ![MINECRAFT SERVER](/MINECRAFT.png)
 -->
