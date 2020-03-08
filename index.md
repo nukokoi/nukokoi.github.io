@@ -38,7 +38,6 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 - - -
 
 ## ブログ系
-- [夢見猫物語](http://ukah.blog.jp/) ちょっと使ってみてる
 - [ぬここゐブログ](http://nukokoi.blog.jp) 日記用 
 - [note](https://note.mu/nukokoi) noteとりあえず作ってみた 
 - [Medium](https://medium.com/@eu1) Mediumとりあえず作ってみた 
