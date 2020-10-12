@@ -14,7 +14,7 @@ Hello world.
 お仕事・ご依頼お待ちしております。
 
 - mail: nukokoi＠outlook.jp
-- Twitter:<a href="https://twitter.com/">＠nukokokoi</a>
+- Twitter:<a href="https://twitter.com/nukokokoi">＠nukokokoi</a>
 
 - - -
 
@@ -37,7 +37,7 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 - [last become flat](https://lied4u.hatenablog.jp/) はてなブログ・クリエイティブ関係
 - [うかたんぶら](https://yumeminuko.tumblr.com/) いつか使う
 - [Qiita](http://qiita.com/walrein)　プログラミング関係
-- [g.o.a.t](https://alpine.goat.me/)　スマホ関係(KDDIが運営してるのでau多め)
+- [g.o.a.t](https://alpine.goat.me/)　雑記
 - [Blogger](https://d0x0b.blogspot.com)　今はほとんど使ってない技術ブログ
 - [ブロマガ](http://ch.nicovideo.jp/ukah)　昔使ってた技術ブログ
 
