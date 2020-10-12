@@ -18,15 +18,7 @@ Hello world.
 
 - - -
 
-## Cavetube Checker
-[cavetube](https://www.cavelis.net/)の放送リストを  
-個人的に見やすくしたウェブサイト
-
-<!--
-[![cavetube checker](/screenshot_cavetubechecker.png)](http://jvs.pw/cavetube/)
--->
-
-- - -
+# Works
 
 ## MINECRAFT サーバー
 Google Cloud Platform で動作させている MINECRAFTサーバー  
@@ -37,15 +29,15 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 
 - - -
 
-## ブログ系
-- [ぬここゐブログ](http://nukokoi.blog.jp) 日記用 
-- [note](https://note.mu/nukokoi) noteとりあえず作ってみた 
-- [Medium](https://medium.com/@eu1) Mediumとりあえず作ってみた 
+# ブログ系
+
+- [ぬここゐブログ](http://nukokoi.blog.jp) 日記用
+- [note](https://note.mu/nukokoi) noteとりあえず作ってみた
+- [Medium](https://medium.com/@eu1) Mediumとりあえず作ってみた
 - [last become flat](https://lied4u.hatenablog.jp/) はてなブログ・クリエイティブ関係
 - [うかたんぶら](https://ukah-blog.tumblr.com) いつか使う
 - [Qiita](http://qiita.com/walrein)　プログラミング関係
 - [g.o.a.t](https://alpine.goat.me/)　スマホ関係(KDDIが運営してるのでau多め)
-- [jsdo.it](http://jsdo.it/lied4u)　ブログ？Javascriptの習熟用、ゲーム考えたり
 
 ## 古いブログ
 
@@ -67,4 +59,3 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 ### test
 
 [![Donate Bitcoin](https://img.shields.io/badge/donate-Bitcoin-orange.svg)](http://nukokoi.github.io/donate-bitcoin/)
-
