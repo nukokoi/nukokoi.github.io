@@ -29,18 +29,15 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 
 - - -
 
-# ブログ系
+# ブログ, SNS
 
 - [ぬここゐブログ](http://nukokoi.blog.jp) 日記用
 - [note](https://note.mu/nukokoi) noteとりあえず作ってみた
 - [Medium](https://medium.com/@eu1) Mediumとりあえず作ってみた
 - [last become flat](https://lied4u.hatenablog.jp/) はてなブログ・クリエイティブ関係
-- [うかたんぶら](https://ukah-blog.tumblr.com) いつか使う
+- [うかたんぶら](https://yumeminuko.tumblr.com/) いつか使う
 - [Qiita](http://qiita.com/walrein)　プログラミング関係
 - [g.o.a.t](https://alpine.goat.me/)　スマホ関係(KDDIが運営してるのでau多め)
-
-## 古いブログ
-
 - [Blogger](https://d0x0b.blogspot.com)　今はほとんど使ってない技術ブログ
 - [ブロマガ](http://ch.nicovideo.jp/ukah)　昔使ってた技術ブログ
 
