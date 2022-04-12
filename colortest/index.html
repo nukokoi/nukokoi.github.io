@@ -33,7 +33,7 @@
 
             <div class="row center-block" style="background-color: rgba(255,255,255,0.75);">
                 <div class="col-4 border">
-                    <br>背景<br>
+                    背景<br>
                 <form class="bg">
                     <input type="radio" name="bg" value="white">白
                     <input type="radio" name="bg" value="black">黒<br>
@@ -46,11 +46,16 @@
                 </form>
                 縁取りのサイズ<br>
                 <form class="fuchi_size">
+                    <input type="radio" name="fuchi_size" value="0"> 0
+                    <input type="radio" name="fuchi_size" value="0.5"> 0.5
                     <input type="radio" name="fuchi_size" value="1"> 1
                     <input type="radio" name="fuchi_size" value="2"> 2
                     <input type="radio" name="fuchi_size" value="3"> 3
                     <input type="radio" name="fuchi_size" value="4"> 4
                 </form>
+                色の追加<br>
+                <input type="text" id="color" placeholder="Colorname or #xxxxxx"><input type="button" id="addColor" value="追加">
+                <button id="init">初期化</button>
                 </div>
             </div>
         
@@ -58,38 +63,10 @@
 
             <div class="row center-block text-center samples">
 
-        <div>
+        <!-- <div>
             #034fa4
             <p class="sample1" style="color:#034fa4">#034fa4</p>
-        </div>
-        <div>
-            #006ab5
-            <p class="sample1" style="color:#006ab5">#006ab5</p>    
-        </div>
-        <div>
-            #00a3ad
-            <p class="sample1" style="color:#00a3ad">#00a3ad</p>
-        </div>
-        <div>
-            #00a93c
-            <p class="sample1" style="color:#00a93c">#00a93c</p>
-        </div>
-        <div>
-            #abcd06
-            <p class="sample1" style="color:#abcd06">#abcd06</p>
-        </div>
-        <div>
-            #fdd902
-            <p class="sample1" style="color:#fdd902">#fdd902</p>
-        </div>
-        <div>
-            #fdd902
-            <p class="sample1" style="color:#fdd902">#fdd902</p>
-        </div>
-        <div>
-            #fdd902
-            <p class="sample1" style="color:#fdd902">#fdd902</p>
-        </div>
+        </div> -->
 
     </div>
 </div>
@@ -118,17 +95,22 @@
             //     return (css.match (/\bcolor-\S+/g) || []).join(' ');
             // });
 
-            $('.samples > div').addClass("col-3");
 
             var storage = localStorage;
-            if(storage.count == null){
-                console.log("first open");
+            function initStorage(){
                 //初期化処理
                 storage.count = 0;
                 storage.sample_num = 3;
+                storage.sample_1 = "red";
+                storage.sample_2 = "green";
+                storage.sample_3 = "blue";
                 storage.background = "white";
                 storage.fuchi = "black";
                 storage.fuchi_size = 1;
+            }
+            if(storage.count == null){
+                console.log("first open");
+                initStorage();                
             }else{
                 console.log(storage.count + " 回目の訪問");
                 var visitCount = storage.count - 0;
@@ -137,12 +119,30 @@
 
 
             //描画処理
-            if(storage.testtext != null){
+            $('.bg > input[type=radio][value="'+storage.background+'"]').prop('checked', true);
+            $("body").css("background",storage.background);
+
+            function addColor(color){
+                var sample = $("<div>").append(color);
+                sample.append($("<p>").append('<p class="sample1" style="color:'+color+'">'+localStorage.testtext+'</p>'));
+                $("div.samples").append(sample);
+                $('.samples > div').addClass("col-4");
+
+            }
+            
+            var sample_num = storage.sample_num - 0;
+            [...Array(sample_num)].forEach((_, i) => {
+                // console.log('repeat:'+(i+1).toString());
+                var color = localStorage["sample_"+(i+1).toString()];
+                // console.log(color);
+                addColor(color);
+            });
+
+            if(storage.testtext != null || storage.testtext != ""){
+                storage.testtext = "Hello world.";
                 $("#testtext").val(storage.testtext)
                 $(".sample1").text(storage.testtext);
             }
-            $('.bg > input[type=radio][value="'+storage.background+'"]').prop('checked', true);
-            $("body").css("background",storage.background);
             $(".fuchi > input[type=radio][value='"+storage.fuchi+"']").prop('checked', true);
             var r = storage.fuchi;
             $(".fuchi_size > input[type=radio][value='"+storage.fuchi_size+"']").prop('checked', true);
@@ -189,7 +189,21 @@
                 changeShadow(r,s);
                 storage.fuchi_size = s;
             });
+            $("#init").click(function(){
+                initStorage();
+                window.localStorage.clear();
+                document.location.reload();
+            });
 
+            $("#addColor").click(function(){
+                // console.log($("#color").val())
+                addColor($("#color").val());
+                var addNumber = localStorage.sample_num - 0 + 1;
+                localStorage.sample_num = addNumber;
+                localStorage['sample_'+ addNumber] = $("#color").val();
+            });
+
+            $('.samples > div').addClass("col-4");
 
         </script>
     </body>
