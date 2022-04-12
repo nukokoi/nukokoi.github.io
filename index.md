@@ -27,6 +27,10 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 ![MINECRAFT SERVER](/MINECRAFT.png)
 -->
 
+## color test
+色合い確認のために試しに作った  
+[Color test](/colortest/)
+
 - - -
 
 # ブログ, SNS
