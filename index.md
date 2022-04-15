@@ -32,7 +32,7 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 [Color test](/colortest/)
 
 ## いのちかぞえ
-MTGやりたいときのためのライフカウンター
+MTGやりたいときのためのライフカウンター  
 [いのちかぞえ](/inochi/)
 
 - - -
