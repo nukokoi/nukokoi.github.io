@@ -26,7 +26,7 @@
             height:50%;
             background:rgba(0, 0, 0, 0.5);
             left:0;
-            /* display: none; */
+            display: none;
         }
         .top{
             top:0;
@@ -60,8 +60,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
-            $(".top").hide();
-            $(".btm").hide();
+            // $(".top").css("visibility","hidden");
+            // $(".btm").css("visibility","hidden");
+            $(".top").fadeOut(0);
         });
 
         $(document).on('click', function(e) {
@@ -77,13 +78,18 @@
             var count = $("#count").text() - 0;
             if(e.pageY <= centerpoint){
                 console.log("上だよ " + count);
-                $(".top").show(100);
-                $(".top").hide(100);
+                // $(".top").css("visibility","visible").promise().done(function(){
+                //     $(".top").css("visibility","hidden");
+                // });
+                $(".top").fadeIn(0);
+                $(".top").fadeOut(80);
+                
                 $("#count").text(count + 1);
             }else if(e.pageY > centerpoint){
                 console.log("下だよ " + count);
-                $(".btm").show(100);
-                $(".btm").hide(100);
+                $(".btm").fadeIn(0);
+                $(".btm").fadeOut(80);
+                
                 $("#count").text(count - 1);
             }
         });
