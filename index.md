@@ -31,6 +31,10 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 色合い確認のために試しに作った  
 [Color test](/colortest/)
 
+## いのちかぞえ
+MTGやりたいときのためのライフカウンター
+[いのちかぞえ](/inochi/)
+
 - - -
 
 # ブログ, SNS
