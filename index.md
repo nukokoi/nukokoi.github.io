@@ -35,6 +35,9 @@ Google Cloud Platform で動作させている MINECRAFTサーバー
 MTGやりたいときのためのライフカウンター  
 [いのちかぞえ](/inochi/)
 
+## デジタル砂時計  
+[デジタル砂時計](/digiglass/)
+
 - - -
 
 # ブログ, SNS

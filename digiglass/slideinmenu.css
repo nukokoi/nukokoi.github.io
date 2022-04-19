@@ -1,0 +1,109 @@
+/* 
+https://setsunaru.com/programming/javascript/slide_in_side_menu/
+*/
+
+/* スライドメニューデザイン */
+#menu {
+    position: fixed;
+    height: 100%;                         /* メニューの縦範囲 */
+    width: 350px;                         /* メニューの横範囲 */
+    max-width: 350px;                     /* メニューの横上限 */
+    background-color: #222222;            /* メニューの背景色 */
+    top: 70px;                            /* メニューの表示位置縦 */
+    right: 0;                             /* メニューの表示位置横 */
+    z-index: 10;                          /* メニューの重なり位置 */
+  }
+  
+  #menu li {
+    padding: 12px;                        /* 余白 */
+    color: #EEEEEE;                       /* 文字色 */
+    border-bottom: 1px solid #EEEEEE;     /* 区切線 */
+    list-style-type: none;                /* リストデザイン無 */
+  }
+  
+  /*====== 右に消えるアニメ ======*/
+  #menu.SlideOut {
+      animation: SlideOut 0.5s forwards;
+  }
+  @keyframes SlideOut{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(350px);
+    }
+  }
+  
+  /*====== 左に現れるアニメ ======*/
+  #menu.SlideIN {
+      animation: SlideIN 0.5s forwards;
+  }
+  @keyframes SlideIN{
+    from {
+        transform: translateX(350px);
+    }
+    to {
+        transform: translateX(0);
+    }
+  }
+  
+  /*=== ヘッダーデザイン ===*/
+  #header{
+    /*レイアウトCSS*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width:100%;
+    z-index: 5;
+    
+    /*レイアウトCSS*/
+    display: flex;
+    align-items: center;
+    background:#333;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* ハンバーガーボタン */
+  .openbtn {
+    position: fixed;            /* 固定表示 */
+    background:#666666;         /* 背景色 */
+    cursor: pointer;            /* マウスカーソル指 */
+    width: 50px;                /* 高さ */
+    height:50px;                /* 横幅 */
+    border-radius: 5px;         /* 角を丸める */
+    right: 9px;                 /* 表示位置右 */
+    top: 9px;                   /* 表示位置上 */
+  }
+  
+  /* ハンバーガーメニューの線を定義 */
+  .openbtn span{
+      display: inline-block;     /* 要素内ブロック */
+      position: absolute;        /* 絶対位置指定   */
+      height:3px;                /* 線の太さ       */
+      width: 25px;               /* 線の長さ       */
+      background: #fff;          /* 線の色         */
+      left: 12.5px;
+    }
+  
+  /* span (1)番目の要素に適用 */
+  .openbtn span:nth-of-type(1) {
+      top:15px;	
+  }
+  
+  /* span (2)番目の要素に適用 */
+  .openbtn span:nth-of-type(2) {
+      top:23px;
+  }
+  
+  /* span (3)番目の要素に適用 */
+  .openbtn span:nth-of-type(3) {
+      top:31px;
+  }
+  
+  /*=== コンテンツの開始位置 ===*/
+  main {
+        padding-top: 72px;
+  }
