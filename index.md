@@ -48,7 +48,6 @@ MTGやりたいときのためのライフカウンター
 - [last become flat](https://lied4u.hatenablog.jp/) はてなブログ・クリエイティブ関係
 - [うかたんぶら](https://yumeminuko.tumblr.com/) いつか使う
 - [Qiita](http://qiita.com/nukokoi)　プログラミング関係
-- [g.o.a.t](https://alpine.goat.me/)　雑記
 - [Blogger](https://d0x0b.blogspot.com)　今はほとんど使ってない技術ブログ
 - [ブロマガ](http://ch.nicovideo.jp/ukah)　昔使ってた技術ブログ
 
